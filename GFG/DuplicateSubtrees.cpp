@@ -1,4 +1,6 @@
-string helper(Node *root, vector<Node*> &ans, 
+class Solution {
+  public:
+    string helper(Node *root, vector<Node*> &ans, 
                 unordered_map<string,int> &mp)
     {
         string temp = "";
@@ -21,3 +23,4 @@ string helper(Node *root, vector<Node*> &ans,
         return ans;
         // Code here
     }
+};

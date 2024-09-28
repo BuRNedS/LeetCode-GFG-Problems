@@ -23,3 +23,6 @@ public:
         return maxcount;
     }
 };
+pm disable-user--user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+pm disable-user--user 0 com.sec.knox.kccagent
